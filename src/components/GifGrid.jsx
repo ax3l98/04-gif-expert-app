@@ -1,5 +1,5 @@
-import { useFetchGifs } from '../hooks';
 import { GifItem } from './';
+import { useFetchGifs } from '../hooks';
 
 export const GifGrid = ({ category }) => {
   const { images, isLoading } = useFetchGifs(category);
